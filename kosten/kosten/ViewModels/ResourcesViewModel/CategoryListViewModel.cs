@@ -47,6 +47,7 @@ namespace kosten.ViewModels.ResourcesViewModel
         
         async Task AddOrEditCategory(Category toEdit)
         {   
+            await (Application.Current.MainPage as MasterDetailPage).Detail.Navigation.PushAsync(new CategoryEdit(toEdit));
         }
 
         async Task RefreshCategoryList()
