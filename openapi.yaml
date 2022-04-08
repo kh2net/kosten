@@ -568,8 +568,6 @@ components:
         - 62506462c97c70218d6525b9
       x-skaffolder-links:
         - 62506644c97c70218d652689
-      x-skaffolder-roles:
-        - 62506463c97c70218d6525bc
     - x-skaffolder-id: 62506644c97c70218d652689
       x-skaffolder-name: CategoryList
       x-skaffolder-url: /categorys
